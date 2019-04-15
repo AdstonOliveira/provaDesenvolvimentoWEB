@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(bg1.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 215vh 50vw;
+    color:white;
+    
+    
+}
+
+.overlay{
+    background-color: rgba(173, 163, 163, 0.40);
+    width: 100vw;  height: 100vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    padding: 10px;
+   
+}
+
+ul{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    border: none;
+    padding: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+li:hover {
+	text-shadow: #000 0.2em 0.3em 0.2em; 
+}
+
+li{
+    list-style: none;
+    transition: 1s;
+}
+
+
+
+
+.titulo{
+    display: flex;
+    border: none;
+    margin-left: 650px;
+    margin-top: 70px;
+    font-size: 35px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-indent: 20px;
+    border:none;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    
+    
+}
+
+.card{
+    width: 280px;
+    border:solid 1px;
+    height: relative;
+    border-radius: 10px;
+    font-size: 19px;
+    text-align: center;
+    background-color:rgba(100, 102, 107, 0.50);
+    
+}
+
+.fas{
+    padding: 10px;
+    font-size: 80px;
+    text-align: center;
+    
+}
+.card h2{
+    font-size: 20px;
+}
+
+
+
